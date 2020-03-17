@@ -1,5 +1,6 @@
 # COVID19_ITA
-Data analysis on the Coronavirus epidemic that is happening in Italy
+Data analysis on the Coronavirus epidemic that is happening in Italy - Comments and suggestions are more than welcome!
+
 
 The source of the the data will be the website http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html#/b0c68bce2cce478eaac82fe38d4138b1
 
@@ -38,3 +39,7 @@ Available indicator are:
 - total_cases = Total records of people with COVID19
 - swabs = Number of COVID19 tests that have been done
 
+# What else is in it?
+
+- Two figures which will be loaded into COVID19_CompartmentalModels.ipynb to explains some basic concepts: Overview.png and SIR_Graphic.png
+- A folder Fit_Data where the output of COVID19_Italy_DataAnalysis.ipynb will be stored in the form of CSV files. These files are organized in two sub-folders: Indicators, Regions, where the respective data are stored.
