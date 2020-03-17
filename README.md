@@ -23,8 +23,7 @@ This file contains the code to perform a least-square fit on the available data 
 
 - COVID19_Italy_Plots.ipynb
 
-This file contains the code to visualize the data and the corresponding fit. Two functions will be used to look at the data:
-**plot_fit_by_indicator** and **plot_fit_by_region**. The notebook contains the explanation about how to use these two functions. Here we simply report, at readers' convenience, the indicators you will be able to look at
+This file contains the code to visualize, data, the corresponding fit and save your plot. Two functions will be used to look at the data: **plot_fit_by_indicator** and **plot_fit_by_region**. The notebook contains the explanation about how to use these two functions. Here we simply report, at readers' convenience, the indicators you will be able to look at are
 
 Available indicator are:
 - region = Name of the italian region of interest - Use 'Italia' to look at national data
@@ -42,4 +41,5 @@ Available indicator are:
 # What else is in it?
 
 - Two figures which will be loaded into COVID19_CompartmentalModels.ipynb to explains some basic concepts: Overview.png and SIR_Graphic.png
-- A folder Fit_Data where the output of COVID19_Italy_DataAnalysis.ipynb will be stored in the form of CSV files. These files are organized in two sub-folders: Indicators, Regions, where the respective data are stored.
+- A folder Fit_Data where the output of COVID19_Italy_DataAnalysis.ipynb will be stored in the form of .CSV files. These files are organized in two sub-folders: Indicators, Regions, where the respective data are stored.
+- A folder Plots where the output of COVID19_Italy_Plots.ipynb will be saved, in the form of a .PNG file. These plots are organized in subfolders, consistently with the way the data is analized: ByRegion and ByIndicator
